@@ -1,1 +1,69 @@
-// All of your CSS goes here
+html {
+  //background-color:#005dc5;
+  background-color:#FF6347;
+
+}
+body {
+  text-align: center;
+  margin: auto;
+  font-family: Lato,Roboto,Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+}
+
+#header {
+  background:transparent url(img/beehive.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color:white;
+  padding: 5px;
+}
+#page {
+  width:90%;
+  background-color:white;
+  margin: auto;
+  margin-top: 10px;
+  //padding: 2em;
+  border: 10px solid;
+  border-color: #ddd;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 0 10px 10px rgba(0,0,0,.55);
+}
+h2 {
+  text-shadow: 0 5px 5px rgba(0,0,0,.55);
+}
+a {
+  text-decoration:none;
+}
+a:hover {
+  color:#EC7575;
+}
+nav.nav-bar {
+  margin: 0 auto;
+  text-align: center;
+  border-width:1px 0;
+
+
+}
+ul.nav-bar {
+  list-style-type: none;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+    text-align: center;
+  display: block;
+
+
+}
+ul.nav-bar li {
+  display:inline;
+  margin: 25px;
+  text-align: center;
+}
+ul.nav-bar li button {
+  display:inline-block;
+  text-align: center;
+}
