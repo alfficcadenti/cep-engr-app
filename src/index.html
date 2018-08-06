@@ -3,35 +3,33 @@
   <head>
     <title>CEP Engineering Application</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8">
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
   </head>
 	<body>
 		<header id="header">
-		<img src="img/avatar_400x400.jpg" alt="me-avatar" height="120" width="120"></img>
+		<img id="avatar" src="img/avatar_400x400.jpg" alt="me-avatar" height="120" width="120"></img>
 		<h1>Data &commat; Work</h1>
 		<h2>Coding for Hobby<h2>
 		</header>
 
-		<div id="page">
-		<nav class="nav-bar">
-			<ul class="nav-bar">
-				<li><button id=firstname-button>First Name</button></li>
-				<li><button id=lastname-button>Last Name</button></li>
-				<li><button id=job-button>Job Title</button></li>
-				<li><button id=office-button>Office</button></li>
-				<li><button id=tellmemore-button>Tell me more</button></li>
-			</ul>
-		</nav>
-		<section>
-		<div id="firstname">Alfredo</div>
-		<div id="lastname">Ficcadenti</div>
-		<div id="job">Risk Data Analyst</div>
-		<div id="office">London</div>
-		<div id="tellmemore">bla bla bla</div>
-		</section>
-	</div>
-	<footer></footer>
+	  <div id="main-page">
+  		<nav class="nav-bar">
+  			<ul class="nav-bar">
+  				<li><button class="nav-button" id="firstname-button" value="firstName">First Name</button></li>
+  				<li><button class="nav-button" id="lastname-button" value="lastName">Last Name</button></li>
+  				<li><button class="nav-button" id="job-button"  value="jobTitle">Job Title</button></li>
+  				<li><button class="nav-button" id="office-button"  value="homeOffice">Office</button></li>
+  				<li><button class="nav-button" id="tellmemore-button" value="tellmemore">Tell me more</button></li>
+  			</ul>
+  		</nav>
+  		<section>
+        <p id="main-display">
+        </p>
+      </section>
+      <img src="img/ha_logo_green.png" alt="Homeaway" height="60" width="60"></img>
+    </div>
 	<script src="init.js"></script>
 	</body>
 </html>
